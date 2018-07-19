@@ -1,4 +1,25 @@
+#include stdio.h
+#include string.h
+#include iomanip.h
+#include math.h
+
+float ComputeTax(char name, float hours);
+void GetEmployeeRecord(char name, float *hours);
+
 void main ()
 {
-	//sample function
+	//Insert Algorithms here;
+}
+
+float ComputeTax(char name, float hours)
+{
+	// Insert SQL Commands here.
+	return tax;
+}
+
+
+void GetEmployeeRecord(char name, float *hours)
+{
+	// Insert SQL Commands here.
+
 }
