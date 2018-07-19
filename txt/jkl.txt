@@ -1,0 +1,8 @@
+void main ()
+{
+ float sum = 0;
+ float rate = 0;
+ float hours = 0;
+
+total = rate * hours;
+}

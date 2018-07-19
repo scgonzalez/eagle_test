@@ -1,0 +1,7 @@
+void main ()
+{
+    struct sample {
+	int x; // initial variable
+	int y; // second variable
+	};
+}
