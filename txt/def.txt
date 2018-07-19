@@ -5,3 +5,17 @@ void main ()
 	cout <<endl;
 	cin>> y;
 }
+void main ()
+{
+	cout << "enter two integers";
+	cin >>x ;
+	cout <<endl;
+	cin>> y;
+}
+void main ()
+{
+	cout << "enter two integers";
+	cin >>x ;
+	cout <<endl;
+	cin>> y;
+}
