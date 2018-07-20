@@ -19,7 +19,9 @@ void main ()
 float ComputeTax(char name, float hours)
 {
 	// Insert SQL Commands here.
+	// The brackets are correct.
 	return tax;
+
 }
 
 
