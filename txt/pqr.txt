@@ -1,31 +1,23 @@
-#include stdio.h
-#include string.h
-#include iomanip.h
-#include math.h
-
-float ComputeTax(char name, float hours);
-void GetEmployeeRecord(char name, float *hours);
-
-void main ()
-{
-	char *pname;
-	char name = null;
-	cout << "insert name to inquire";
-	cin >> name;
-	pname = &name;
-	GetEmployeeRecord(&pname, hours);
-}
-
-float ComputeTax(char name, float hours)
-{
-	// Insert SQL Commands here.
-	// The brackets are correct.
-	return tax;
-}
-
-
-void GetEmployeeRecord(char *name, float *hours)
-{
-	// Insert SQL Commands here.
-
-}
+Main Function
+    input MonthlySalary
+    execute ComputeTax Function
+    output Tax
+end
+    
+    
+ComputeTax Function
+    AnnualSalary = MonthlySalary * 12
+    if AnnualSalary <= 250000
+        Tax = 0
+    else if 250000 < AnnualSalary <= 400000
+        Tax = (AnnualSalary - 250000) * 0.20
+    else if 400000 < AnnualSalary <= 800000
+        Tax = ((AnnualSalary - 400000) * 0.25) + 30000
+    else if 800000 < AnnualSalary <= 2000000
+        Tax = ((AnnualSalary - 800000) * 0.30) + 130000
+    else if 2000000 < AnnualSalary <= 8000000
+        Tax = ((AnnualSalary - 2000000) * 0.32) + 490000
+    else if AnnualSalary > 8000000
+        Tax = ((AnnualSalary - 8000000) * 0.35) + 2410000
+    return Tax
+end
