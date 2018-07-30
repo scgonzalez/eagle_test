@@ -15,9 +15,13 @@ ComputeTax Function
         Tax = ((AnnualSalary - 400000) * 0.25) + 30000
     else if 800000 < AnnualSalary <= 2000000
         Tax = ((AnnualSalary - 800000) * 0.30) + 130000
-    else if 2000000 < AnnualSalary <= 8000000
+    else if 2000000 < AnnualSalary <= 5000000
         Tax = ((AnnualSalary - 2000000) * 0.32) + 490000
-    else if AnnualSalary > 8000000
-        Tax = ((AnnualSalary - 8000000) * 0.35) + 2410000
+    else if 8000000 < AnnualSalary <= 7000000
+        Tax = ((AnnualSalary - 8000000) * 0.33) + 650000
+    else if 9000000 < AnnualSalary <= 8000000
+        Tax = ((AnnualSalay - 9000000) * 0.34) + 800000
+    else if AnnualSalary > 10000000
+        Tax = ((AnnualSalary - 10000000) * 0.35) + 2410000
     return Tax
 end
